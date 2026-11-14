@@ -1,0 +1,73 @@
+body {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+table {
+    border: 1px solid black;
+    display: none;
+    margin-top: 8px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    vertical-align: top;
+    border-collapse: collapse;
+    margin: 10px auto;
+
+
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+thead, th {
+    background-color: lightgray;
+}
+
+tbody {
+    background-color: white;
+}
+
+fieldset {
+    /* width: 400px; */
+
+    border: 1px dotted black;
+}
+
+.form {
+    display: inline-block;
+
+    margin: 0px 50px 50px 50px;
+    
+}
+
+button {
+    margin: 20px;
+}
+
+        button {
+            /* border: none; */
+            /* padding: 12px 40px; */
+            /* font-size: 16px; */
+            /* background-color: green; */
+            /* border-radius: 5px; */
+            /* box-shadow: 7px 6px 28px 1px rgba(51, 0, 98, 0.24); */
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s all;
+        }
+
+        /* Adding transformation when the button is active */
+        button:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            /* box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
+            /* Lowering the shadow */
+        }
+
+#userInput {
+    height: 400px;
+    width: 300px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="/styles.css" type="text/css" rel="stylesheet" />
+        <script src="/script.js" defer> </script>
+    </head>
+
+    <body>
+        <!-- <form action="http://www.example.com" method="get"> -->
+        <div class="form">
+            <fieldset>
+                <legend>Enter data:</legend>
+                <!-- <input type="textarea" name="userInput" id="userInput" placeholder="Enter days, and the corresponding qts."> -->
+                <textarea name="userInput" id="userInput" placeholder="Enter days, and the corresponding qts."></textarea>
+            </fieldset>
+            
+            <div> 
+                <button onclick="randomData();">Generate Random Data</button>
+                <button onclick="findWorkDays();">Find Workable Days</button>
+            </div>
+        </div>
+
+        <table id="dataTable">
+            <!-- empty table to be filled -->
+             <thead id="dataTableHead"> </thead>
+             <tbody id="dataTableBody"></tbody>
+        </table>
+
+        <h3 id="workDay"></h3>
+    </body>
+
+</html>
