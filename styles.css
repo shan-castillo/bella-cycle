@@ -1,6 +1,9 @@
 body {
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
+    font-family:monospace;
+    
 
 }
 
@@ -70,4 +73,8 @@ button {
 #userInput {
     height: 400px;
     width: 300px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
 }

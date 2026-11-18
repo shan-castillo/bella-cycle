@@ -147,7 +147,6 @@ function randomData() {
 			delivery = tempDelivery;
 			pickup = tempPickup;
 			continue;
-			day--;
 		}
 		
 		stockBalance = stockBalance + delivery - pickup;
